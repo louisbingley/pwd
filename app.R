@@ -152,11 +152,7 @@ f=function(theta0,d1,d2,k,alphalv,beta,xi1,xi2,dz,om,ao_low,ao_up,a2_low,a2_up){
 n1range=seq(10,100,1)
 
 ############################################
-# Data Professor                           #
-# http://youtube.com/dataprofessor         #
-# http://github.com/dataprofessor          #
-# http://facebook.com/dataprofessor        #
-# https://www.instagram.com/data.professor #
+# shiny R                                  #
 ############################################
 
 library(shiny)
