@@ -1,0 +1,40 @@
+---
+title: " "
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Result Interpretation
+ 
+
+$\alpha_{overall}$:  Type I error at "overall" level (containing 2 stages)
+
+$\alpha_2$: Type I error at stage II
+
+$pwr_{overall}$:  Power at "overall" level (containing 2 stages) --- Probability of successfully picking the true best arm when the parameter settings are at the Least Favorable Configuration.
+
+$pwr_1$ : Power at stage I
+
+$pwr_2$ : Power at stage II
+
+$n_1$ : Sample size per arm at stage I
+
+$n_{2.Ctl}$ : Sample size for the control arm at stage II
+
+$n_{2.Trmt}$ : Sample size for the treatment arm at stage II
+
+$y_1$ : Critical value for stage I
+
+$y_2$ : Critical value for stage II
+
+$EN$ : Expected total sample size for the entire design
+
+$EN_0$ : Expected total sample size for the entire design, given the Null $\theta_1=\theta_2 =...=\theta_K=\theta_0$ is true.
+
+$N_{max}$ : Maximum total sample size for the entire design 
+
+$PET_0$ : Probability of early termination, given the Null $\theta_1=\theta_2 =...=\theta_K=\theta_0$ is true.
+
